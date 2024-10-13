@@ -1,0 +1,196 @@
+/* visuals */
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header, footer {
+    background-color: #1F2937;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+a, p {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h2 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+h3 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+button, .CTA {
+    background-color: #3882f6;
+    color: #E5E7EB;
+}
+
+.quote p {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+/* page alignment */
+
+body {
+    margin: 0; /* remove the weird white space around the page */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.front-section {
+    display: flex;
+}
+
+.sidebar {
+    width: 300px;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-links {
+    display: flex;
+    gap: 25px;
+}
+
+.hero {
+    display: flex;
+    padding-bottom: 100px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.hero-text {
+    align-self: stretch;
+}
+
+.hero-p {
+    filter: contrast(80%);
+}
+
+.hero-button {
+    padding: 8px 25px;
+    border-radius: 8px;
+}
+
+
+/*
+
+
+*/
+.middle-section {
+    display: flex;
+}
+
+.carousel {
+    display: flex;
+    flex-direction: column;
+}
+
+.carousel > h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-images {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.carousel-images > img {
+    flex: 1;
+    max-width: 300px;
+}
+
+.carousel-texts {
+    display: flex;
+}
+
+#carousel-texts > p {
+    color: #1F2937;;
+}
+
+
+
+
+
+
+
+
+.CTA-background {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+
+.CTA {
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 50px 150px;
+}
+
+.send-help {
+    
+}
+
+.CTA > p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.CTA > .hero-button {
+    border-color: white;
+    font-weight: 700;
+}
+
+#CTA-text {
+    font-size: 12px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+} 

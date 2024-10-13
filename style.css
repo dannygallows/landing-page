@@ -116,13 +116,15 @@ header {
 
 
 */
-.middle-section {
+/* .middle-section {
     display: flex;
     justify-content: center;
-}
+    align-items: center;
+} */
 
 .carousel {
     display: flex;
+    justify-content: center;
     flex-direction: column;
 }
 
@@ -134,21 +136,23 @@ header {
 .carousel-images {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.carousel-images > img {
-    max-width: 250px;
-}
-
-.carousel-texts {
+.carousel-image {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    flex: 1;
 }
 
-#carousel-texts > p {
+.carousel-image > p {
     color: #1F2937;
-    margin: 20px;
+    margin-top: 0;
 }
 
 

@@ -29,6 +29,8 @@ h2 {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 h3 {
@@ -101,6 +103,7 @@ header {
 
 .hero-p {
     filter: contrast(80%);
+    margin: 0 100px 10px 0;
 }
 
 .hero-button {
@@ -115,6 +118,7 @@ header {
 */
 .middle-section {
     display: flex;
+    justify-content: center;
 }
 
 .carousel {
@@ -130,26 +134,52 @@ header {
 .carousel-images {
     display: flex;
     justify-content: center;
-    margin: 0 auto;
     gap: 20px;
 }
 
 .carousel-images > img {
-    flex: 1;
-    max-width: 300px;
+    max-width: 250px;
 }
 
 .carousel-texts {
     display: flex;
+    justify-content: space-between;
 }
 
 #carousel-texts > p {
-    color: #1F2937;;
+    color: #1F2937;
+    margin: 20px;
 }
 
 
 
 
+
+
+
+.quote {
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.quote > p {
+    font-size: 40px;
+    width: 750px;
+    margin: 0;
+}
+
+.quote > .author {
+    display: flex;
+    font-weight: 900;
+    font-style: normal;
+    margin: 0;
+    font-size: 25px;
+    justify-content: end;
+}
 
 
 
@@ -166,26 +196,27 @@ header {
 .CTA {
     display: flex;
     justify-content: center;
+    align-items: center;
     border-radius: 8px;
     padding: 50px 150px;
+    gap: 80px;
 }
 
-.send-help {
-    
-}
-
-.CTA > p {
-    font-size: 20px;
+.send-help > p {
+    font-size: 26px;
     font-weight: 700;
+    margin: 3px;
 }
 
 .CTA > .hero-button {
     border-color: white;
     font-weight: 700;
+    max-height: 50px;
 }
 
 #CTA-text {
-    font-size: 12px;
+    font-size: 16px;
+    font-weight: 100;
 }
 
 footer {
